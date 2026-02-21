@@ -1,11 +1,11 @@
 import { Routes, Route, Link } from "react-router-dom";
 import Navbar from "./components/navbar";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Skills from "./pages/Skills";
-import Resume from "./pages/Resume";
-import Projects from "./pages/Projects";
-import Contact from "./pages/Contact";
+import Home from "./pages/temphome";
+import About from "./pages/tempabout";
+import Skills from "./pages/tempskills";
+import Resume from "./pages/tempresume";
+import Projects from "./pages/tempprojects";
+import Contact from "./pages/tempcontact";
 
 function App() {
   return (

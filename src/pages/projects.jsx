@@ -169,7 +169,7 @@ const Projects = () => {
             {/* 🖼️ Image Edits */}
             <div className="p-6 rounded-2xl bg-white/40 dark:bg-black/40 backdrop-blur-md border border-white/50 dark:border-white/20 shadow-lg">
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 border-l-4 border-blue-600 pl-4">
-                Photo & color grading edits
+                Photo Clicks & color Grading Edits
               </h2>
 
               <div className="grid grid-cols-2 md:grid-cols-3 gap-5 py-5">

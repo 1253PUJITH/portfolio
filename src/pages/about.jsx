@@ -143,11 +143,11 @@ const About = () => {
       ></div>
 
       <div className="flex px-20 gap-14 h-full pb-24">
-        <div className="w-120 p-8 rounded-2xl flex flex-col items-center gap-5 overflow-auto scrollbar-hide bg-white/40 dark:bg-black/40 backdrop-blur-md border border-white/50 dark:border-white/10 shadow-[0_8px_32px_rgba(0,0,0,0.1)] dark:shadow-[0_8px_32px_rgba(255,255,255,0.1)]">
-          <div className=" border-4 border-white/80 dark:border-white/20 rounded-lg overflow-hidden shadow-lg ">
+        <div className="w-120 h-135 p-8 rounded-2xl flex flex-col items-center gap-5 overflow-auto scrollbar-hide bg-white/40 dark:bg-black/40 backdrop-blur-md border border-white/50 dark:border-white/10 shadow-[0_8px_32px_rgba(0,0,0,0.1)] dark:shadow-[0_8px_32px_rgba(255,255,255,0.1)]">
+          <div className=" border-4 border-white/80 dark:border-white/20 rounded-md overflow-hidden shadow-lg ">
             <img
-              src="https://res.cloudinary.com/dsw536m3y/image/upload/v1749449888/avatar_aaonx4.jpg"
-              className="h-full w-full "
+              src="https://res.cloudinary.com/dsw536m3y/image/upload/v1771724982/IMG_20240901_170220_sihp8w.jpg"
+              className="h-100 w-40 object-cover pb-60  "
               alt="profile"
             ></img>
           </div>
@@ -193,7 +193,7 @@ const About = () => {
         </div>
 
         {/* // ================= RIGHT COLUMN: ABOUT & SKILLS ================= */}
-        <div className="w-full p-8 rounded-2xl flex flex-col items-center gap-5 overflow-auto scrollbar-hide bg-white/40 dark:bg-black/40 backdrop-blur-md border border-white/50 dark:border-white/10 shadow-[0_8px_32px_rgba(0,0,0,0.1)] dark:shadow-[0_8px_32px_rgba(255,255,255,0.1)]">
+        <div className="w-full h-135 p-8 rounded-2xl flex flex-col items-center gap-5 overflow-auto scrollbar-hide bg-white/40 dark:bg-black/40 backdrop-blur-md border border-white/50 dark:border-white/10 shadow-[0_8px_32px_rgba(0,0,0,0.1)] dark:shadow-[0_8px_32px_rgba(255,255,255,0.1)]">
           <div
             className=" w-full py-4 px-8 rounded-lg flex flex-col gap-5 bg-white/40 dark:bg-black/40 backdrop-blur-md border 
                     border-white/50 dark:border-white/20 shadow-[0_8px_32px_rgba(0,0,0,0.1)] dark:shadow-[0_8px_32px_rgba(255,255,255,0.1)]"

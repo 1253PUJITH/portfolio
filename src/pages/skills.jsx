@@ -469,12 +469,14 @@ const Skills = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-full h-full p-8 rounded-2xl bg-white/40 dark:bg-black/40 backdrop-blur-md border border-white/50 dark:border-white/20 shadow-[0_8px_32px_rgba(0,0,0,0.1)]">
-                <div className="text-xl font-bold tracking-wide text-gray-800 dark:text-gray-200 py-4 flex justify-center items-center">
-                  <p>Tools I Use Daily</p>
-                </div>
-
-                <div className=" flex items-center justify-center gap-10">
+             
+            </div>
+          </div>
+          <div className="p-8 rounded-2xl bg-white/40 dark:bg-black/40 backdrop-blur-md border border-white/50 dark:border-white/20 shadow-[0_8px_32px_rgba(0,0,0,0.1)] dark:shadow-[0_8px_32px_rgba(255,255,255,0.1)]">
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 border-l-4 border-blue-600 pl-4 transition-colors duration-500">
+              Tools I Use Daily
+            </h2>
+            <div className=" flex items-center justify-center gap-10">
                   {apps.map((item) => (
                     <div
                       key={item.id}
@@ -487,8 +489,6 @@ const Skills = () => {
                     </div>
                   ))}
                 </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
